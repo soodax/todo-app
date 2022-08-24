@@ -1,0 +1,55 @@
+.taskItem {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 10px 0;
+    width: 100%;
+    border: 0 transparent;
+    border-radius: 20px;
+    overflow: hidden;
+
+    span {
+        width: 100%;
+        color: black;
+        word-wrap: break-word;
+        font-size: 18px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 0 10px;
+    }
+
+    &__date {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+        background: rgb(45, 45, 45);
+        color: white;
+        font-weight: 600;
+    }
+
+    &__checked {
+        text-decoration: line-through;
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0 transparent;
+        border-radius: 100%;
+    }
+
+}
+
+.taskItem-dark {
+    background: rgb(30, 30, 30);
+
+    span {
+        color: white;
+    }
+}

@@ -1,0 +1,24 @@
+.greetingsBlock {
+    margin: 20px 0 0 0;
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    div {
+        margin: 15px 0;
+        text-align: center;
+        color: white;
+        
+    }
+
+    &__weekDay {
+        font-size: 32px;
+    }
+
+    &__date {
+        font-size: 24px;
+    }
+}
